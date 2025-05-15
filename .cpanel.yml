@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOY_PATH=/home/ah72king/public_html/commingsoonproject
+    - echo "Deploying to $DEPLOY_PATH"
+    - /bin/cp -r * $DEPLOY_PATH
